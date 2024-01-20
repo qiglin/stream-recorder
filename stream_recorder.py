@@ -4,12 +4,12 @@ The recorded signal is saved to a file at a specified interval (default to 300 s
 The audio format is mono, 16-bit linear PCM, with the sampling frequency 
     being configurable (default to 16_000 Hz).
 
-External recording device tested: EVO8, FocusRite (as well as MacBook built-in)
+External recording devices tested: EVO8, FocusRite (as well as MacBook built-in)
 
 Author: Q. Lin
 Jan 2024
 
-Testing from Mac:
+Testing on Mac:
     python3 stream_recorder.py -r 16000 -d 5
 
 Note:
